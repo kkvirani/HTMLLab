@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Order</title>
+    <style>
+        .OrderInfo{border: 1px solid black;}
+        .line{
+width: 112px;
+height: 47px;
+border-bottom: 1px solid black;
+position: absolute;
+}
+    </style>
+</head>
+<body>
+    <h1>Dado Tea Lunch Special</h1>
+
+    <p>Monday through Friday</p>
+    <p>11am - 3pm</p>
+    <p>$9.95 plus tax</p>
+    <br />
+    <p>Includes sandwich, snack, and drink</p>
+
+        <form>
+    
+        <fieldset class="OrderInfo">
+            <legend>Order Information</legend>
+        
+        <label for="name" class="Marginindiv"><strong>Name</strong></label><br />
+        <input class="Marginindiv" type="text" name="name" placeholder="Kevin" />
+
+        <div for="Ordertype">
+            <input class="Marginindiv" type="radio" name="ordertype" value="ordertype" />
+            <label for="ordertype">Dine In</label><br />
+        
+        
+            <input class="Marginindiv" type="radio" name="ordertype" value="ordertype" />
+            <label for="ordertype">Take Out</label><br /><br />
+        </div>
+        
+
+    </fieldset>
+    <div>
+    <fieldset class="OrderInfo">
+        <legend>Sandwiches</legend>
+
+        <div for="monday">
+            <label for="monday">Monday</label><br />
+            <input type="radio" name="'monday" value="monday"/>
+            <label for="monday"> Tomato Mozarella</label><br />
+            <input type="radio" name="'monday" value="monday"/>
+            <label for="monday"> Chicken Salad</label>
+                
+        </div>
+        <div for="tuesday">
+            <label for="tuesday">Tuesday</label><br />
+            <input type="radio" name="'tuesday" value="tuesday"/>
+            <label for="tuesday">Greek Salad Wrap</label><br />
+            <input type="radio" name="'tuesday" value="tuesday"/>
+            <label for="tuesday"> Toto Wrap</label>
+                
+        </div>
+        <div for="Wednesday">
+            <label for="Wednesday">Wednesday</label><br />
+            <input type="radio" name="Wednesday" value="Wednesday"/>
+            <label for="Wednesday"> Tomato Mozarella</label><br />
+            <input type="radio" name="Wednesday" value="Wednesday"/>
+            <label for="Wednesday"> Chicken Salad</label>
+                
+        </div>
+
+        <div for="Thursday">
+            <label for="Thursday">Thursday</label><br />
+            <input type="radio" name="'Thursday" value="Thursday"/>
+            <label for="Thursday"> Tomato Mozarella</label><br />
+            <input type="radio" name="'Thursday" value="Thursday"/>
+            <label for="Thursday"> Chicken Salad</label>
+                
+        </div>
+
+        <div for="Friday">
+            <label for="Friday">Friday</label><br />
+            <input type="radio" name="Friday" value="Friday"/>
+            <label for="Friday"> Tomato Mozarella</label><br />
+            <input type="radio" name="Friday" value="Friday"/>
+            <label for="Friday"> Chicken Salad</label>
+           
+        </div>
+        <hr>
+
+        <div for="extra">
+            <input type="checkbox" name="extra" value="extra">
+            <label for="extra">Gluten Free Bread</label><br />
+        </div>
+        
+
+    </fieldset>
+   
+</div>
+
+
+    <fieldset>
+        <legend>Snack</legend>
+
+        <div>
+            <input type="radio" name="snack" value="snack" />
+            <label for="snack">Apple</label><br />
+            <input type="radio" name="snack" value="snack" />
+            <label for="snack">Banana</label><br />
+            <input type="radio" name="snack" value="snack" />
+            <label for="snack">Potato Chips</label><br />
+        </div>
+
+    </fieldset>
+
+    <fieldset>
+            <legend>Drink</legend>
+
+            <div>
+                <label for="drinks"> <strong>Drinks</strong></label><br />
+                <select id="level" name="level">
+                    <optgroup label="Black Tea">
+                        <option value="1">Hot Black Tea - Keemun</option>
+                        <option value="2">Hot Black Tea - Decaf Keemun</option> 
+                        <option value="3">Iced Black Tea - Keemun</option>
+                        <option value="4">Hot Black Tea - Decaf Keemun</option>    
+                    </optgroup>
+                    <optgroup label="Green Tea">
+                        <option value="1">Hot Green Tea - Sencha</option>
+                        <option value="2">Hot Green Tea - Decaf</option>
+                        <option value="3">Iced Green Tea - Sencha</option>
+                        <option value="4">Iced Green Tea - Decaf</option>
+                    
+                    </optgroup>
+                    <optgroup label="Coffee">
+                        <option value="1">Hot Coffee</option>
+                        <option value="2">Hot Decaf Coffee</option>
+                        <option value="3">Iced Coffee</option>
+                        <option value="4">Iced Decaf Coffee</option>
+                    </optgroup>
+                    <optgroup label="Bubble Tea ($1.50 extra)">
+                        <option value="1">Bubble Tea</option>
+                    </optgroup>
+                </select>
+            </div>
+
+    </fieldset>
+
+
+
+
+        </form>
+</body>
+</html>
